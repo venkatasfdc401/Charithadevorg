@@ -1,0 +1,3 @@
+<apex:page standardController="Opportunity" extensions="OpportunityController">
+  <apex:iframe src="{!src}"/>
+</apex:page>

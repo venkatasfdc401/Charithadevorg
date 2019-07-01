@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_is_mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( (ISPICKVAL(StageName, &#39;Closed Won&#39;) &amp;&amp; Account.FinServ__TotalNumberOfFinAccounts__c = 0), true, false)</errorConditionFormula>
+    <errorMessage>At this stage membership is mandatory. Please create a financial(membership) account for the respective person account to bind a policy</errorMessage>
+</ValidationRule>

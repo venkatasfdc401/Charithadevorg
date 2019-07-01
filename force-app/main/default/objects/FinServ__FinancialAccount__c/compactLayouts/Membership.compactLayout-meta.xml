@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership</fullName>
+    <fields>Name</fields>
+    <fields>Membership_Number__c</fields>
+    <fields>Membership_Type__c</fields>
+    <fields>Amount_Paid__c</fields>
+    <fields>Last_Pay_Date__c</fields>
+    <fields>Expiration__c</fields>
+    <label>Membership</label>
+</CompactLayout>
